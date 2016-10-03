@@ -7,12 +7,12 @@ readonly FILEURL="http://jp.download.nvidia.com/XFree86/Linux-x86_64/${VERSION}/
 
 InstallProcess() {
 
-  echo sudo stop lightdm
+  sudo stop lightdm
 
-  echo cd $HOME/Downloads
-  echo wget -nc $FILEURL
-  echo chmod +x $FILENAME
-  echo sudo sh $FILENAME $1
+  cd $HOME/Downloads
+  wget -nc $FILEURL
+  chmod +x $FILENAME
+  sudo sh $FILENAME $1
 }
 
 #Check if argument is no-opengl or does not exist
