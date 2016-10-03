@@ -2,8 +2,8 @@
 
 
 readonly VERSION="367.35"
-readonly FILENAME="NVIDIA-Linux-x86_64-$VERSION.run"
-readonly FILEURL="http://jp.download.nvidia.com/XFree86/Linux-x86_64/$VERSION/$FILENAME"
+readonly FILENAME="NVIDIA-Linux-x86_64-${VERSION}.run"
+readonly FILEURL="http://jp.download.nvidia.com/XFree86/Linux-x86_64/${VERSION}/${FILENAME}"
 
 InstallProcess() {
 

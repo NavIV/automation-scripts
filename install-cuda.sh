@@ -2,7 +2,8 @@
 
 # for Ubuntu14.04 64bit
 
-readonly FILENAME="cuda_7.5.18_linux.run"
+readonly VERSION="7.5.18"
+readonly FILENAME="cuda_${VERSION}_linux.run"
 readonly FILEURL="http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/${FILENAME}"
 
 cd $HOME/Downloads
