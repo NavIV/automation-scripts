@@ -9,6 +9,8 @@ InstallProcess() {
 
   sudo stop lightdm
 
+  sudo apt-get remove nvidia* && sudo apt-get autoremove
+
   cd $HOME/Downloads
   wget -nc $FILEURL
   chmod +x $FILENAME
