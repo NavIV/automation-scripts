@@ -22,3 +22,15 @@ Please change install version by editing scripts.
   - Do you want to install a symbolic link at ~~ : *y*
   - Install the CUDA 7.5 Samples? : *y*
   - Enter CUDA Samples Location : (blank)
+  
+### Install OpenCV
+1. Execute `opencv.sh install`
+1. Wait for a while...
+
+### Install ROS Indigo
+1. Execute `install-ros-indigo.sh`
+1.Wait for a while...
+
+### Install Autoware
+1. Execute `install-autoware.sh`
+1.Wait for a while...
