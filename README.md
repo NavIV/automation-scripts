@@ -12,7 +12,7 @@ Please change install version by editing scripts.
 1. After installing, Type `nvidia-smi` if the Driver is installed with no problem
 
 ### Install NVIDIA CUDA Driver
-1. Execute `install nvidia-driver.sh`<br>
+1. Execute `install-cuda.sh`<br>
 1. Answer some questions as follows
 
   - Do you accept the previously read EULA? : *accept*
