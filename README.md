@@ -1,6 +1,7 @@
 # automation-scripts
 
 You can use these scripts after installing Ubuntu 14.04.
+
 Please change install version by editing scripts.
 
 ### Install NVIDIA Graphic Driver
