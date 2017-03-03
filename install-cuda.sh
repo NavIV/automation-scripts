@@ -11,8 +11,8 @@ wget $FILEURL -nc
 chmod +x $FILENAME
 sudo sh $FILENAME
 
-echo "export PATH=/usr/local/cuda/bin:\$PATH" >> $HOME/.bashrc
-echo "export LD_LIBRARY_PATH=/usr/local/cuda/lib64:\$LD_LIBRARY_PATH" >> $HOME/.bashrc
+echo "export PATH=/usr/local/cuda/bin:\$PATH" | tee -a $HOME/.bashrc > /dev/null
+echo "export LD_LIBRARY_PATH=/usr/local/cuda/lib64:\$LD_LIBRARY_PATH" | tee -a $HOME/.bashrc > /dev/null
 
 echo "/usr/local/cuda/lib64" | sudo tee -a /etc/ld.so.conf.d/cuda.conf > /dev/null
 sudo ldconfig
